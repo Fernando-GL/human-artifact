@@ -634,23 +634,16 @@ body > h2 {
 }
 </style>
     </section>
-    <script>
+<script>
+  const dates = document.querySelectorAll(".timeline-date");
 
-const dates = document.querySelectorAll(".timeline-date");
-
-dates.forEach(function(date) {
-
-  date.addEventListener("click", function() {
-
-    const information = this.nextElementSibling;
-
-    information.classList.toggle("active");
-
+  dates.forEach(function(date) {
+    date.addEventListener("click", function() {
+      const information = this.nextElementSibling;
+      information.classList.toggle("active");
+    });
   });
-
-});
 </script>
-    
 
 </body>
   </body>
