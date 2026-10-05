@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Human Artifact</title>
+  </head>
+  <body style="background-color: #E8D5C4;">
+    <h1 style="font-size: 60px;">FIU HUMAN ARTIFACT</h1>
+    <p style="font-size: 30px"> This page was made by Fernando Guevara.</p>
+    <p>My Human Artifact will be hosted here.</p>
+
+    
+    <hr>
+
+
+  <h2>The printing press was one of the most important technological innovations in European history. Beginning in the fifteenth century, printing technology spread rapidly across Europe and changed the way books, ideas, and information were produced and shared. This timeline shows how printing activity expanded between 1450 and 1650. 
+</h2>
+
+  
+
+    <hr>
+
+<section class="timeline-section">
+
+  <h2>The Spread of the Printing Press in Europe</h2>
+
+  <p class="timeline-intro">
+    Click on each year to explore how printing technology spread
+    across Europe between 1450 and 1650.
+  </p>
+
+  <div class="timeline">
+
+    <!-- 1450 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1450</button>
+
+      <div class="timeline-content">
+        <h3>The Beginning of European Printing</h3>
+
+        <p>
+          Around the 1450s, Johannes Gutenberg developed a system of
+          movable-type printing in Mainz, Germany. This technology made
+          it possible to reproduce books more efficiently than copying
+          them by hand.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+
+    <!-- 1470 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1470</button>
+
+      <div class="timeline-content">
+        <h3>Printing Spreads Across Europe</h3>
+
+        <p>
+          During the following decades, printing activity began spreading
+          beyond its early centers. Printing presses appeared in more
+          European cities and the technology started reaching new regions.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+
+    <!-- 1500 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1500</button>
+
+      <div class="timeline-content">
+        <h3>A Growing Network of Printing Centers</h3>
+
+        <p>
+          By around 1500, printing had spread across much of Europe.
+          Important cities such as Venice, Paris, Basel, and other
+          commercial centers became important locations for printing
+          and publishing.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+
+    <!-- 1550 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1550</button>
+
+      <div class="timeline-content">
+        <h3>Printing Becomes Established</h3>
+
+        <p>
+          During the sixteenth century, printing became an established
+          industry in many European cities. Books, religious texts,
+          academic works, and other printed materials could circulate
+          across larger areas.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+
+    <!-- 1600 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1600</button>
+
+      <div class="timeline-content">
+        <h3>European Printing Networks Expand</h3>
+
+        <p>
+          By the beginning of the seventeenth century, printing activity
+          was connected to a large network of cities. Major commercial
+          and intellectual centers played an important role in producing
+          and distributing printed information.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+
+    <!-- 1650 -->
+    <div class="timeline-item">
+      <button class="timeline-date">1650</button>
+
+      <div class="timeline-content">
+        <h3>A Widespread Technology</h3>
+
+        <p>
+          By 1650, printing activity had appeared in more than 1,300
+          European locations. Printing had become an important technology
+          for distributing information, knowledge, and ideas.
+        </p>
+
+        <a
+          href="https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-spread-of-european-printing-activity-1450-1650-mapped/"
+          target="_blank">
+          Source: University of St Andrews
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+    <style>
+
+.timeline-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.timeline-section h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.timeline-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 40px;
+  border-left: 4px solid #333;
+  padding-left: 35px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -47px;
+  top: 10px;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: white;
+  border: 4px solid #333;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  background-color: #333;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.timeline-date:hover {
+  background-color: #555;
+}
+
+.timeline-content {
+  display: none;
+
+  margin-top: 15px;
+  padding: 20px;
+
+  background-color: #f4f4f4;
+
+  border-radius: 10px;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+}
+
+.timeline-content a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.timeline-content.active {
+  display: block;
+}
+
+</style>
+    <script>
+
+const dates = document.querySelectorAll(".timeline-date");
+
+dates.forEach(function(date) {
+
+  date.addEventListener("click", function() {
+
+    const information = this.nextElementSibling;
+
+    information.classList.toggle("active");
+
+  });
+
+});
+
+</script>
+    
+
+</body>
+
+  </body>
+</html>
